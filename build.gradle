@@ -26,7 +26,3 @@ jar {
         attributes 'Main-Class': 'org.example.Main'  // This tells Java where to start execution
     }
 }
-task copyWebsite(type: Copy) {
-    from 'src/main/resources'
-    into 'docs'
-}
